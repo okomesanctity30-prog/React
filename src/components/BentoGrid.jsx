@@ -16,7 +16,7 @@ const BentoGrid = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="md:col-span-2 bg-dark-card border order-dark-border hover:border-brand-500/50 rounded-3xl p-8 sm:p-10 flex-col justify-between transition-all duration-300 group">
           <div>
-            <div className="w-12 h-2 rounded-2xl bg-brand-500/10 border border-brand-500/20 text-brand-accent flex items-center justify-center text-2xl font-bold mb-6 group-hover:scale-110 transition-transform">
+            <div className="w-12 h-12 rounded-2xl bg-brand-500/10 border border-brand-500/20 text-brand-accent flex items-center justify-center text-2xl font-bold mb-6 group-hover:scale-110 transition-transform">
               ⚡
             </div>
             <h3 className="text-2xl font-bold text-white mb-3">
@@ -28,6 +28,75 @@ const BentoGrid = () => {
               pub/sub pipelines, event sourcing, and non-blocking I/O runtine
               intergration.
             </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-dark-border/60 flex items-center gap-6 text-xs text-gray-400 font-mono">
+            <span>Latency: &lt;12ms</span>
+            <span>•</span>
+            <span>Concurrency: 100k/sec</span>
+          </div>
+        </div>
+
+        <div className="bg-dark-card border border-dark-border hover:border-brand-500/50 rounded-3xl p-8 sm:p-10 flex-col justify-between transition-all duration-300 group">
+          <div>
+            <div className="w-12 h-12 rounded-2xl bg-brand-500/10 border border-brand-500/20 text-brand-accent flex items-center justify-center text-2xl font-bold mb-6 group-hover:scale-110 transition-transform">
+              🛡
+            </div>
+            <h3 className="text-2xl font-bold text-white mb-3">
+              Zero-Trust Security
+            </h3>
+
+            <p className="text-gray-400 tex sm leading-realaxed max-w-xl">
+              Automated token rotation, encrypted data vaults, and role-based
+              access control out of the box.
+            </p>
+          </div>
+
+          <span className="mt-6 text-xs text-brand-accent font-semibold">
+            AES-256 Encrypted
+          </span>
+        </div>
+
+        <div className="bg-dark-card border border-dark-border hover:border-brand-500/50 rounded-3xl p-8 sm:p-10 flex-col justify-between transition-all duration-300 group">
+          <div>
+            <div className="w-12 h-12 rounded-2xl bg-brand-500/10 border border-brand-500/20 text-brand-accent flex items-center justify-center text-2xl font-bold mb-6 group-hover:scale-110 transition-transform">
+              🌐
+            </div>
+            <h3 className="text-2xl font-bold text-white mb-3">
+              Edge CDN Routing
+            </h3>
+
+            <p className="text-gray-400 tex sm leading-realaxed max-w-xl">
+              Global content delivery networks catching static assets and
+              dynamic responses at 250+ edge node.
+            </p>
+          </div>
+
+          <span className="mt-6 text-xs text-brand-accent font-semibold">
+            Global Distribution
+          </span>
+        </div>
+
+        <div className="md:col-span-2 bg-dark-card border order-dark-border hover:border-brand-500/50 rounded-3xl p-8 sm:p-10 flex-col justify-between transition-all duration-300 group">
+          <div>
+            <div className="w-12 h-12 rounded-2xl bg-brand-500/10 border border-brand-500/20 text-brand-accent flex items-center justify-center text-2xl font-bold mb-6 group-hover:scale-110 transition-transform">
+              📊
+            </div>
+            <h3 className="text-2xl font-bold text-white mb-3">
+              Real-time Telemetry Dahsboard
+            </h3>
+
+            <p className="text-gray-400 tex sm leading-realaxed max-w-xl">
+              Inspect application metics, memory footprints, active database
+              pools, and query performance in real-time with automated anomally
+              alerts.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-dark-border/60 flex items-center gap-6 text-xs text-gray-400 font-mono">
+            <span>Uptime: 99.99%</span>
+            <span>•</span>
+            <span>OpenTelementry Compatible</span>
           </div>
         </div>
       </div>
