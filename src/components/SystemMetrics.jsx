@@ -38,6 +38,10 @@ const SystemMetics = () => {
               <div className="text-4xl sm:text-5xl font-black text-white tracking-tight mb-2">
                 {item.value}
               </div>
+              <div className="text-sm font-bold text-brand-accent mb-1">
+                {item.label}
+              </div>
+              <div className="text-xs text-gray-500">{item.sub}</div>
             </div>
           ))}
         </div>
