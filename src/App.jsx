@@ -4,6 +4,7 @@ import BentoGrid from "./components/BentoGrid";
 import CodeShowcase from "./components/CodeShowcase";
 import SystemMetrics from "./components/SystemMetrics";
 import TechSpecGrid from "./components/TechSpecGrid";
+import PricingGrid from "./components/PricingGrid";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <CodeShowcase />
         <SystemMetrics />
         <TechSpecGrid />
+        <PricingGrid />
       </main>
     </div>
   );
